@@ -5,6 +5,6 @@ class AnimatedScreen extends StatelessWidget {
 
   const AnimatedScreen({super.key});
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(appBar: AppBar(title: Text('hi')));
   }
 }

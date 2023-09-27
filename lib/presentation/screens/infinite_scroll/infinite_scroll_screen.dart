@@ -5,6 +5,6 @@ class InfiniteScrollScreen extends StatelessWidget {
 
   const InfiniteScrollScreen({super.key});
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(appBar: AppBar(title: Text('hi')));
   }
 }

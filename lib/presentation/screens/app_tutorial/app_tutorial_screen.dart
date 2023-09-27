@@ -5,6 +5,6 @@ class AppTutorialScreen extends StatelessWidget {
 
   const AppTutorialScreen({super.key});
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(appBar: AppBar(title: Text('hi')));
   }
 }

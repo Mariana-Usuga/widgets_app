@@ -5,6 +5,6 @@ class SnackbarScreen extends StatelessWidget {
 
   const SnackbarScreen({super.key});
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(appBar: AppBar(title: Text('hi')));
   }
 }
