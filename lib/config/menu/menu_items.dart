@@ -30,10 +30,10 @@ const appMenuItems = <MenuItem>[
       link: '/animated',
       icon: Icons.check_box_outline_blank),
   MenuItem(
-      title: 'App tutorial',
-      subTitle: 'Un contenedor estilizado',
+      title: 'Introducion a la app',
+      subTitle: 'Pequeño tutorial introductorio',
       link: '/tutorial',
-      icon: Icons.credit_card),
+      icon: Icons.accessible_rounded),
   MenuItem(
       title: 'Infinite scroll',
       subTitle: 'Un contenedor estilizado',
@@ -50,8 +50,8 @@ const appMenuItems = <MenuItem>[
       link: '/snackbar',
       icon: Icons.credit_card),
   MenuItem(
-      title: 'ui_controls',
-      subTitle: 'Un contenedor estilizado',
+      title: 'ui_controls + tiles',
+      subTitle: 'Una serie de controler de Flutter',
       link: '/ui_controls',
-      icon: Icons.credit_card),
+      icon: Icons.car_rental_outlined),
 ];
