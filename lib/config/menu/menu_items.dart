@@ -25,10 +25,10 @@ const appMenuItems = <MenuItem>[
       link: '/cards',
       icon: Icons.credit_card),
   MenuItem(
-      title: 'Animacion',
-      subTitle: 'Un contenedor estilizado',
+      title: 'Animated container',
+      subTitle: 'Stateful widget animado',
       link: '/animated',
-      icon: Icons.credit_card),
+      icon: Icons.check_box_outline_blank),
   MenuItem(
       title: 'App tutorial',
       subTitle: 'Un contenedor estilizado',
