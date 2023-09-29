@@ -54,4 +54,14 @@ const appMenuItems = <MenuItem>[
       subTitle: 'Una serie de controler de Flutter',
       link: '/ui_controls',
       icon: Icons.car_rental_outlined),
+  MenuItem(
+      title: 'Counter screen',
+      subTitle: 'sumandi numero',
+      link: '/counter',
+      icon: Icons.car_rental_outlined),
+  MenuItem(
+      title: 'Cambiar tema',
+      subTitle: 'Cambiar tema de la aplicación',
+      link: '/theme-changer',
+      icon: Icons.color_lens_outlined),
 ];
