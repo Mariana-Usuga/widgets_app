@@ -57,3 +57,29 @@ class _SideMenuState extends State<SideMenu> {
         ]);
   }
 }
+/**  
+ * void ejemploFuncion(int a, int b, int c) {
+  print('a: $a, b: $b, c: $c');
+}
+
+List<int> lista = [1, 2, 3];
+
+ejemploFuncion(...lista);
+
+sin : ejemploFuncion(lista[0], lista[1], lista[2]);
+
+
+
+
+
+final List<MenuItem> firstThreeMenuItems = appMenuItems.sublist(0, 3);
+for (final item in firstThreeMenuItems) {
+  // ... tu lógica aquí ...
+}
+El operador ... se llama el "operador de propagación" o "operador 
+de spread" en Dart. Este operador se utiliza para desempaquetar los 
+elementos de una lista o un objeto iterable y agregarlos como elementos
+ individuales a otra lista o estructura de datos, o para pasar elementos
+  de una lista como argumentos separados a una función que espera 
+  múltiples argumentos.
+ */

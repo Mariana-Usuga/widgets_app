@@ -5,19 +5,21 @@ class MenuItem {
   final String subTitle;
   final String link;
   final IconData icon;
+  final List<String>? subItem;
 
   const MenuItem(
       {required this.title,
       required this.subTitle,
       required this.link,
-      required this.icon});
+      required this.icon,
+      this.subItem});
 }
 
 const appMenuItems = <MenuItem>[
   MenuItem(
-      title: 'Botones',
+      title: 'Inicio',
       subTitle: 'Varios botones en flutter',
-      link: '/buttons',
+      link: '/start',
       icon: Icons.smart_button_outlined),
   MenuItem(
       title: 'Tarjetas',
